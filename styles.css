@@ -1,6 +1,12 @@
-.container {
+.container-md {
+    padding: 1rem;
     background-color: #540D0D;
     color: white;
     height: auto;
-    
+    text-align: center;
+}
+
+.logo-img {
+    width: 120px;
+    height: auto;
 }
