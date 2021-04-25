@@ -1,6 +1,5 @@
 * {
-    font-family: 'Comic Neue', cursive;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
+
 }
 
 header {
@@ -20,17 +19,22 @@ header {
 .section-left {
     font-family: 'Monoton', cursive;
     padding-top: 6rem;
-    font-size: 2.8rem;
+    font-size: 3rem;
     text-align: right;
 }
 
-.info {
-    padding: 2rem;
+.komodo {
+    background-color: #e6e6e6;
 }
 
-.info-emotions {
+.info {
+    padding: 3.5rem;
+}
+
+.info-emotions h1 {
+    font-family: 'Monoton', cursive;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .icons-flex {
@@ -48,13 +52,10 @@ header {
     padding-right: 100px;
 }
 
-.komodo {
-    background-image: url(/images/komodo-left-2.jpg);
-    background-repeat: no-repeat;
-}
-
 .define {
     font-family: 'Monoton', cursive;
+    font-size: 2.8rem;
+    padding: 3rem;
     padding-bottom: 2rem;
 }
 
