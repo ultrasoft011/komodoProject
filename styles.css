@@ -1,5 +1,6 @@
 * {
     font-family: 'Comic Neue', cursive;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
     text-align: center;
 }
 
-.explore-left {
+.explore {
     height: auto;
     background-color: #e6e6e6;
     color: black;
@@ -21,4 +22,35 @@ header {
     padding-top: 6rem;
     font-size: 2.8rem;
     text-align: right;
+}
+
+.info {
+    padding: 2rem;
+}
+
+.info-emotions {
+    text-align: center;
+    font-weight: bold;
+}
+
+.icons-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons-flex div {
+    padding: 3rem;
+}
+
+.info-2-emotions {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.komodo-left {
+    background-image: url(/images/komodo-left.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 667px;
 }
