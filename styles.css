@@ -1,3 +1,13 @@
+header {
+    padding: 1rem;
+    background-color: #540D0D;
+    color: white;
+    text-align: center;
+}
+
+
+
+
 .container-md {
     padding: 1rem;
     background-color: #540D0D;
@@ -9,4 +19,8 @@
 .logo-img {
     width: 120px;
     height: auto;
+}
+
+.explore {
+    text-align: right;
 }
