@@ -48,9 +48,16 @@ header {
     padding-right: 100px;
 }
 
-.komodo-left {
-    background-image: url(/images/komodo-left.jpg);
+.komodo {
+    background-image: url(/images/komodo-left-2.jpg);
     background-repeat: no-repeat;
-    width: 500px;
-    height: 667px;
+}
+
+.define {
+    font-family: 'Monoton', cursive;
+    padding-bottom: 2rem;
+}
+
+.define-left {
+    padding-bottom: 3rem;
 }
