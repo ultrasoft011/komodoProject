@@ -1,3 +1,7 @@
+* {
+    font-family: 'Comic Neue', cursive;
+}
+
 header {
     padding: 1rem;
     background-color: #540D0D;
@@ -5,22 +9,16 @@ header {
     text-align: center;
 }
 
-
-
-
-.container-md {
-    padding: 1rem;
-    background-color: #540D0D;
-    color: white;
+.explore-left {
     height: auto;
-    text-align: center;
+    background-color: #e6e6e6;
+    color: black;
+    font-weight: bold;
 }
 
-.logo-img {
-    width: 120px;
-    height: auto;
-}
-
-.explore {
+.section-left {
+    font-family: 'Monoton', cursive;
+    padding-top: 6rem;
+    font-size: 2.8rem;
     text-align: right;
 }
