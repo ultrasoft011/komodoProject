@@ -8,6 +8,7 @@ header {
     background: linear-gradient(90deg, rgba(255,180,178,1) 0%, rgba(255,238,238,1) 100%);
     font-family: 'Anton', sans-serif;
     text-align: center;
+    border-bottom: 2px solid rgb(110, 22, 22);
 }
 
 #header-button {
@@ -45,18 +46,35 @@ header {
 
 .button {
     display: inline-flex;
-    height: 40px;
-    width: 150px;
+    height: 35px;
+    width: 130px;
     border: 2px solid black;
-    margin: 20px 20px 20px 20px;
-    color: #000000;
+    margin: 10px 10px 10px 10px;
+    color: black;
     text-transform: uppercase;
-    font-size: .8em;
     letter-spacing: 1.5px;
     align-items: center;
     justify-content: center;
+}
+
+.topnav {
     overflow: hidden;
 }
+
+.topnav {
+    color: black;
+    padding-bottom: 1.7rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 3px solid red;
+}
+
+
+
+  
 
 .plans-komodo {
 
@@ -66,7 +84,7 @@ header {
 .explore {
     height: auto;
     background-color: white;
-    padding-top: 8.5rem;
+    padding-top: 5.5rem;
     color: black;
     font-weight: bold;
 }
